@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import Header from './components/layout/Header'
 import ButtonWhatsap from './components/layout/ButtonWhatsap'
 import ScrollToTop from './components/ScrollToTop'
@@ -77,6 +77,8 @@ function App() {
             <Route path="/reparacion-chiller" element={<ReparacionChiller />} />
             <Route path="/instalacion-chiller" element={<InstalacionChiller />} />
             <Route path="/diseno-chiller" element={<DisenoChiller />} />
+            {/* Ruta catch-all que redirige a la página principal */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
         <Footer />
