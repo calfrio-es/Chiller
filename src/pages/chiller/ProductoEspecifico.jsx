@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 import { Heart, Share2, Bookmark, CheckCircle, Thermometer } from 'lucide-react';
 import { getProductoById } from '../../data/Productos';
 import ChillerCatalogo from './sections/ChillerCatalogo';
+import chiller3trImg from '../../assets/img/layout/chiller3tr.jpeg';
+import chiller100toneladasImg from '../../assets/img/layout/chiller100toneladas.png';
+import chiller25trImg from '../../assets/img/layout/chiller25tr.jpeg';
+import chiller20trImg from '../../assets/img/layout/chiller20tr.jpeg';
+import chiller10trImg from '../../assets/img/layout/chiller10tr.jpeg';
+import chiller75Img from '../../assets/img/layout/chiiller7-5.jpeg';
 
 const ProductoEspecifico = () => {
   const { id } = useParams();
@@ -167,7 +173,7 @@ const ProductoEspecifico = () => {
                 <article className="border-b border-gray-200 pb-6">
                   <div className="bg-gray-200 rounded-lg h-32 mb-4 flex items-center justify-center">
                     <img 
-                      src="/src/assets/img/layout/chiller3tr.jpeg" 
+                      src={chiller3trImg} 
                       alt="Chiller 3TR"
                       className="w-full h-full object-cover rounded-lg"
                     />
@@ -213,7 +219,7 @@ const ProductoEspecifico = () => {
                 <article className="border-b border-gray-200 pb-6">
                   <div className="bg-gray-200 rounded-lg h-40 mb-4 flex items-center justify-center">
                     <img 
-                      src="/src/assets/img/layout/chiller100toneladas.png" 
+                      src={chiller100toneladasImg} 
                       alt="Chiller 100 Toneladas"
                       className="w-full h-full object-cover rounded-lg"
                     />
@@ -242,7 +248,7 @@ const ProductoEspecifico = () => {
                 <article className="border-b border-gray-200 pb-6">
                   <div className="bg-gray-200 rounded-lg h-40 mb-4 flex items-center justify-center">
                     <img 
-                      src="/src/assets/img/layout/chiller25tr.jpeg" 
+                      src={chiller25trImg} 
                       alt="Chiller 25TR"
                       className="w-full h-full object-cover rounded-lg"
                     />
@@ -270,7 +276,7 @@ const ProductoEspecifico = () => {
                 <article className="border-b border-gray-200 pb-6">
                   <div className="bg-gray-200 rounded-lg h-40 mb-4 flex items-center justify-center">
                     <img 
-                      src="/src/assets/img/layout/chiller20tr.jpeg" 
+                      src={chiller20trImg} 
                       alt="Chiller 20TR"
                       className="w-full h-full object-cover rounded-lg"
                     />
@@ -316,7 +322,7 @@ const ProductoEspecifico = () => {
                 <article className="border-b border-gray-200 pb-6">
                   <div className="bg-gray-200 rounded-lg h-40 mb-4 flex items-center justify-center">
                     <img 
-                      src="/src/assets/img/layout/chiller10tr.jpeg" 
+                      src={chiller10trImg} 
                       alt="Chiller 10TR"
                       className="w-full h-full object-cover rounded-lg"
                     />
@@ -333,7 +339,7 @@ const ProductoEspecifico = () => {
                 <article className="border-b border-gray-200 pb-6">
                   <div className="bg-gray-200 rounded-lg h-40 mb-4 flex items-center justify-center">
                     <img 
-                      src="/src/assets/img/layout/chiiller7-5.jpeg" 
+                      src={chiller75Img} 
                       alt="Chiller 7.5 Toneladas"
                       className="w-full h-full object-cover rounded-lg"
                     />

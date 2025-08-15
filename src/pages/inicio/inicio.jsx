@@ -6,7 +6,6 @@ import RepuestosOriginales from './sections/RepuestosOriginales';
 import CompraVenta from './sections/CompraVenta';
 import NuestrosServicios from './sections/NuestrosServicios';
 import ClientesSatisfechos from './sections/ClientesSatisfechos';
-import ChillerPersonalizado from './sections/ChillerPersonalizado';
 
 const Inicio = () => {
   return (
@@ -15,7 +14,6 @@ const Inicio = () => {
       <CompraVenta />
       <TecnicosDomicilio />
       <NuestrosServicios />
-      <ChillerPersonalizado />
       <ClientesSatisfechos />
       <RepuestosOriginales />
       <Companies />
