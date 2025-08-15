@@ -5,6 +5,22 @@ import ButtonWhatsap from './components/layout/ButtonWhatsap'
 import ScrollToTop from './components/ScrollToTop'
 import Inicio from './pages/inicio/inicio'
 import ServicioTecnicoChiller from './pages/servicios/ServicioTecnicoChiller'
+import ServicioTecnicoLGFusagasuga from './pages/servicios/ServicioTecnicoLGFusagasuga'
+import ServicioTecnicoHacebMedellin from './pages/servicios/ServicioTecnicoHacebMedellin'
+import ServicioTecnicoLGBucaramanga from './pages/servicios/ServicioTecnicoLGBucaramanga'
+import MantenimientoDeEstufasBarranquilla from './pages/servicios/MantenimientoDeEstufasBarranquilla'
+import MantenimientoLavadorasWhirlpoolBarranquilla from './pages/servicios/MantenimientoLavadorasWhirlpoolBarranquilla'
+import MantenimientoAiresAcondicionados from './pages/servicios/MantenimientoAiresAcondicionados'
+import AlquilerChiller from './pages/servicios/AlquilerChiller'
+import MantenimientoLavadorasBucaramanga from './pages/servicios/MantenimientoLavadorasBucaramanga'
+import CompraVentaChillerSegunda from './pages/servicios/CompraVentaChillerSegunda'
+import ServicioTecnicoMabeMedellin from './pages/servicios/ServicioTecnicoMabeMedellin'
+import MantenimientoEstufasBucaramanga from './pages/servicios/MantenimientoEstufasBucaramanga'
+import ServicioTecnicoSamsungBarranquilla from './pages/servicios/ServicioTecnicoSamsungBarranquilla'
+import ServicioTecnicoWhirlpoolFusagasuga from './pages/servicios/ServicioTecnicoWhirlpoolFusagasuga'
+import ReparacionNeverasWhirlpoolBarranquilla from './pages/servicios/ReparacionNeverasWhirlpoolBarranquilla'
+import ServicioTecnicoSamsungBucaramanga from './pages/servicios/ServicioTecnicoSamsungBucaramanga'
+import AlquilerChillerBogota from './pages/servicios/AlquilerChillerBogota'
 import MantenimientoTecnicoChiller from './pages/servicios/MantenimientoTecnicoChiller'
 import ReparacionChiller from './pages/servicios/ReparacionChiller'
 import InstalacionChiller from './pages/servicios/InstalacionChiller'
@@ -73,6 +89,22 @@ function App() {
             <Route path="/calentadores" element={<Calentadores />} />
             <Route path="/lavadoras" element={<Lavadoras />} />
             <Route path="/servicio-tecnico-chiller" element={<ServicioTecnicoChiller />} />
+            <Route path="/servicio-tecnico-lg-fusagasuga" element={<ServicioTecnicoLGFusagasuga />} />
+            <Route path="/servicio-tecnico-haceb-medellin" element={<ServicioTecnicoHacebMedellin />} />
+            <Route path="/servicio-tecnico-lg-bucaramanga" element={<ServicioTecnicoLGBucaramanga />} />
+            <Route path="/mantenimiento-estufas-barranquilla" element={<MantenimientoDeEstufasBarranquilla />} />
+            <Route path="/mantenimiento-lavadoras-whirlpool-barranquilla" element={<MantenimientoLavadorasWhirlpoolBarranquilla />} />
+            <Route path="/mantenimiento-aires-acondicionados" element={<MantenimientoAiresAcondicionados />} />
+            <Route path="/alquiler-chiller" element={<AlquilerChiller />} />
+            <Route path="/mantenimiento-lavadoras-bucaramanga" element={<MantenimientoLavadorasBucaramanga />} />
+            <Route path="/compra-venta-chiller-segunda" element={<CompraVentaChillerSegunda />} />
+            <Route path="/servicio-tecnico-mabe-medellin" element={<ServicioTecnicoMabeMedellin />} />
+            <Route path="/mantenimiento-estufas-bucaramanga" element={<MantenimientoEstufasBucaramanga />} />
+            <Route path="/servicio-tecnico-samsung-barranquilla" element={<ServicioTecnicoSamsungBarranquilla />} />
+            <Route path="/servicio-tecnico-whirlpool-fusagasuga" element={<ServicioTecnicoWhirlpoolFusagasuga />} />
+            <Route path="/reparacion-neveras-whirlpool-barranquilla" element={<ReparacionNeverasWhirlpoolBarranquilla />} />
+            <Route path="/servicio-tecnico-samsung-bucaramanga" element={<ServicioTecnicoSamsungBucaramanga />} />
+            <Route path="/alquiler-chiller-bogota" element={<AlquilerChillerBogota />} />
             <Route path="/mantenimiento-chiller" element={<MantenimientoTecnicoChiller />} />
             <Route path="/reparacion-chiller" element={<ReparacionChiller />} />
             <Route path="/instalacion-chiller" element={<InstalacionChiller />} />
