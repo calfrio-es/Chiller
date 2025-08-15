@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import multiSplitImg from '../../assets/img/layout/multisplit.jpg';
 
 const MultiSplit = () => {
   return (
@@ -9,7 +10,7 @@ const MultiSplit = () => {
         {/* Imagen de fondo */}
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/img/layout/multisplit.jpg" 
+            src={multiSplitImg} 
             alt="Sistema de aire acondicionado Multi Split" 
             className="w-full h-full object-cover"
           />

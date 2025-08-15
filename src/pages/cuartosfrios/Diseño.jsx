@@ -1,4 +1,6 @@
 import React from 'react';
+import heroDiseñoImg from '../../assets/img/layout/herodiseño.jpg';
+import copoNieveImg from '../../assets/img/layout/copodenieve.png';
 
 const Diseño = () => {
   return (
@@ -8,7 +10,7 @@ const Diseño = () => {
         {/* Imagen de fondo */}
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/img/layout/herodiseño.jpg" 
+            src={heroDiseñoImg} 
             alt="Diseño de cuartos fríos industrial" 
             className="w-full h-full object-cover"
           />
@@ -54,7 +56,7 @@ const Diseño = () => {
           {/* Copo de nieve grande - inferior izquierdo */}
           <div className="absolute bottom-0 left-0 w-32 h-32 transform -rotate-12 z-20">
             <img 
-              src="/src/assets/img/layout/copodenieve.png" 
+              src={copoNieveImg} 
               alt="Copo de nieve" 
               className="w-full h-full object-contain"
             />
@@ -63,7 +65,7 @@ const Diseño = () => {
           {/* Copo de nieve pequeño - superior derecho */}
           <div className="absolute top-0 right-0 w-16 h-16 transform rotate-12 z-20">
             <img 
-              src="/src/assets/img/layout/copodenieve.png" 
+              src={copoNieveImg} 
               alt="Copo de nieve" 
               className="w-full h-full object-contain"
             />
@@ -93,7 +95,7 @@ const Diseño = () => {
           {/* Copos de nieve adicionales flotantes */}
           <div className="absolute top-1/4 left-1/4 w-8 h-8 animate-pulse z-20">
             <img 
-              src="/src/assets/img/layout/copodenieve.png" 
+              src={copoNieveImg} 
               alt="Copo de nieve" 
               className="w-full h-full object-contain"
             />
@@ -101,7 +103,7 @@ const Diseño = () => {
 
           <div className="absolute bottom-1/3 right-1/4 w-6 h-6 animate-pulse z-20" style={{ animationDelay: '1s' }}>
             <img 
-              src="/src/assets/img/layout/copodenieve.png" 
+              src={copoNieveImg} 
               alt="Copo de nieve" 
               className="w-full h-full object-contain"
             />
@@ -109,7 +111,7 @@ const Diseño = () => {
 
           <div className="absolute top-1/2 left-1/3 w-4 h-4 animate-pulse z-20" style={{ animationDelay: '2s' }}>
             <img 
-              src="/src/assets/img/layout/copodenieve.png" 
+              src={copoNieveImg} 
               alt="Copo de nieve" 
               className="w-full h-full object-contain"
             />
@@ -126,7 +128,7 @@ const Diseño = () => {
               {/* Copo de nieve en medio */}
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 z-30">
                 <img 
-                  src="/src/assets/img/layout/copodenieve.png" 
+                  src={copoNieveImg} 
                   alt="Copo de nieve" 
                   className="w-full h-full object-contain"
                 />

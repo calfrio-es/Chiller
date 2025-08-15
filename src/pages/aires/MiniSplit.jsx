@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import miniSplitImg from '../../assets/img/layout/minisplit.jpg';
 
 const MiniSplit = () => {
   return (
@@ -9,7 +10,7 @@ const MiniSplit = () => {
         {/* Imagen de fondo */}
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/img/layout/minisplit.jpg" 
+            src={miniSplitImg} 
             alt="Aire acondicionado Mini Split" 
             className="w-full h-full object-cover"
           />

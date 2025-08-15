@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import pisoTechoImg from '../../assets/img/layout/pisoatecho.jpg';
 
 const PisoTechoSplit = () => {
   return (
@@ -9,7 +10,7 @@ const PisoTechoSplit = () => {
         {/* Imagen de fondo */}
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/img/layout/pisoatecho.jpg" 
+            src={pisoTechoImg} 
             alt="Aire acondicionado Piso Techo" 
             className="w-full h-full object-cover"
           />
