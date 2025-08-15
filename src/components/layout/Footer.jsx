@@ -79,16 +79,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/cuartos-frios" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm no-underline">
-                  Cuartos Fríos
-                </Link>
-              </li>
-              <li>
-                <Link to="/aires" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm no-underline">
-                  Aires Acondicionados
-                </Link>
-              </li>
-              <li>
                 <Link to="/televisores" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm no-underline">
                   Electrodomésticos
                 </Link>

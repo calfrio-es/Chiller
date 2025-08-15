@@ -48,7 +48,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/inicio" element={<Inicio />} />
-            <Route path="/chiller" element={<PrincipalChiller />} />
             <Route path="/producto/:id" element={<ProductoEspecifico />} />
             <Route path="/chiller-100-toneladas" element={<Chiller100Toneladas />} />
             <Route path="/chiller-7-5-toneladas" element={<Chiller75toneladas />} />
@@ -60,11 +59,9 @@ function App() {
             <Route path="/chiller-20-tr" element={<Chiller20 />} />
             <Route path="/chiller-25-tr" element={<Chiller25 />} />
             <Route path="/chiller-cw-3000" element={<ChillerCw3000 />} />
-            <Route path="/cuartos-frios" element={<div className="p-8">Página Cuartos Fríos - En construcción</div>} />
             <Route path="/congelacion" element={<Congelacion />} />
             <Route path="/conservacion" element={<Conservacion />} />
             <Route path="/diseno-cuartos" element={<Diseño />} />
-            <Route path="/aires" element={<div className="p-8">Página Aires - En construcción</div>} />
             <Route path="/mini-split" element={<MiniSplit />} />
             <Route path="/multi-split" element={<MultiSplit />} />
             <Route path="/diseno-calculo" element={<DiseñoCalculo />} />
@@ -75,7 +72,6 @@ function App() {
             <Route path="/estufas" element={<Estufas />} />
             <Route path="/calentadores" element={<Calentadores />} />
             <Route path="/lavadoras" element={<Lavadoras />} />
-            <Route path="/servicios" element={<div className="p-8">Página Servicios - En construcción</div>} />
             <Route path="/servicio-tecnico-chiller" element={<ServicioTecnicoChiller />} />
             <Route path="/mantenimiento-chiller" element={<MantenimientoTecnicoChiller />} />
             <Route path="/reparacion-chiller" element={<ReparacionChiller />} />
