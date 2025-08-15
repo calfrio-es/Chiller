@@ -1,4 +1,5 @@
 import React from 'react';
+import repuestosImg from '../../../assets/img/layout/repuestos.png';
 
 const RepuestosOriginales = () => {
   const repuestos = [
@@ -69,7 +70,7 @@ const RepuestosOriginales = () => {
           {/* Imagen de repuestos */}
           <div>
             <img 
-              src="/src/assets/img/layout/repuestos.png" 
+              src={repuestosImg} 
               alt="Repuestos y componentes HVAC" 
               className="w-full h-auto object-cover rounded-xl"
             />

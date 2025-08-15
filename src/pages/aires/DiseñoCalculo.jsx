@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import diseñoCalculoImg from '../../assets/img/layout/diseñoycalculo.jpg';
 
 const DiseñoCalculo = () => {
   return (
@@ -9,7 +10,7 @@ const DiseñoCalculo = () => {
         {/* Imagen de fondo */}
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/img/layout/diseñoycalculo.jpg" 
+            src={diseñoCalculoImg} 
             alt="Diseño y Cálculo de Aires Acondicionados" 
             className="w-full h-full object-cover"
           />

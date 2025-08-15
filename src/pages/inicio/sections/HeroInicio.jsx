@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import hero1Img from '../../../assets/img/layout/hero1.png';
+import hero2Img from '../../../assets/img/layout/hero2.png';
 
 const HeroInicio = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   // Array de imágenes de fondo
   const backgroundImages = [
-    '/src/assets/img/layout/hero1.png',
-    '/src/assets/img/layout/hero2.png',
+    hero1Img,
+    hero2Img,
   ];
 
   useEffect(() => {

@@ -1,4 +1,5 @@
 import React from 'react';
+import tecnicoDomicilioImg from '../../../assets/img/layout/tecnicodomicilio.jpg';
 
 export default function TecnicosDomicilio() {
   return (
@@ -7,7 +8,7 @@ export default function TecnicosDomicilio() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/src/assets/img/layout/tecnicodomicilio.jpg')"
+          backgroundImage: `url(${tecnicoDomicilioImg})`
         }}
       />
       
