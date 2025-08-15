@@ -1,0 +1,41 @@
+/* Estilos globales para Chiller Colombia */
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Layout principal de la aplicación */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Contenido principal que empuja el footer hacia abajo */
+.main-content {
+  flex: 1;
+}
+
+/* Utilidades globales */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reset scroll position on route change */
+html, body {
+  scroll-behavior: auto;
+}
+
+/* Ensure each page starts at the top */
+.app-container {
+  scroll-behavior: auto;
+}
