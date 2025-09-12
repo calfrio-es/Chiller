@@ -6,6 +6,7 @@ import RepuestosOriginales from './sections/RepuestosOriginales';
 import CompraVenta from './sections/CompraVenta';
 import NuestrosServicios from './sections/NuestrosServicios';
 import ClientesSatisfechos from './sections/ClientesSatisfechos';
+import ContenidoExtenso from './sections/ContenidoExtenso';
 
 const Inicio = () => {
   return (
@@ -17,6 +18,7 @@ const Inicio = () => {
       <ClientesSatisfechos />
       <RepuestosOriginales />
       <Companies />
+      <ContenidoExtenso />
     </main>
   );
 };

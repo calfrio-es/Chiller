@@ -276,11 +276,11 @@ const Header = () => {
                     onMouseLeave={handleDropdownLeave}
                   >
                     <div className="p-4 grid grid-cols-1 gap-1 text-xs">
-                      <Link to="/servicio-tecnico-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Servicio Técnico Chiller</Link>
-                      <Link to="/mantenimiento-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Mantenimiento Chiller</Link>
-                      <Link to="/reparacion-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Reparación chiller</Link>
-                      <Link to="/instalacion-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Instalación chiller</Link>
-                      <Link to="/diseno-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Diseño chiller</Link>
+                      <Link to="/servicio-tecnico-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Servicio Técnico Especializado</Link>
+                      <Link to="/mantenimiento-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Mantenimiento Preventivo</Link>
+                      <Link to="/reparacion-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Reparación Correctiva</Link>
+                      <Link to="/instalacion-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Instalación Profesional</Link>
+                      <Link to="/diseno-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Diseño Personalizado</Link>
                     </div>
                   </div>
                 )}
@@ -480,11 +480,11 @@ const Header = () => {
                      </button>
                      {mobileDropdowns.servicios && (
                        <div className="mt-3 ml-4 space-y-2">
-                         <Link to="/servicio-tecnico-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Servicio Técnico Chiller</Link>
-                         <Link to="/mantenimiento-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Mantenimiento Chiller</Link>
-                         <Link to="/reparacion-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Reparación chiller</Link>
-                         <Link to="/instalacion-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Instalación chiller</Link>
-                         <Link to="/diseno-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Diseño chiller</Link>
+                         <Link to="/servicio-tecnico-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Servicio Técnico Especializado</Link>
+                         <Link to="/mantenimiento-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Mantenimiento Preventivo</Link>
+                         <Link to="/reparacion-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Reparación Correctiva</Link>
+                         <Link to="/instalacion-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Instalación Profesional</Link>
+                         <Link to="/diseno-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Diseño Personalizado</Link>
                        </div>
                      )}
                    </div>
