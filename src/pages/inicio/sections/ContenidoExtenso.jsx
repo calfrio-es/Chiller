@@ -33,9 +33,9 @@ const ContenidoExtenso = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <h4 className="text-xl font-bold text-slate-800 mb-3">
+              <div className="text-xl font-bold text-slate-800 mb-3">
                 Tecnología de Vanguardia en Chillers
-              </h4>
+              </div>
               <p className="text-slate-600 mb-3">
                 Ofrecemos una amplia gama de chillers que van desde equipos compactos de 3 TR hasta sistemas industriales 
                 de 100 toneladas, diseñados para satisfacer las necesidades específicas de cada cliente. Nuestros chillers 
@@ -48,9 +48,9 @@ const ContenidoExtenso = () => {
             </div>
 
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <h4 className="text-xl font-bold text-slate-800 mb-3">
+              <div className="text-xl font-bold text-slate-800 mb-3">
                 Servicio Técnico Especializado
-              </h4>
+              </div>
               <p className="text-slate-600 mb-3">
                 Nuestro equipo de técnicos especializados está disponible las 24 horas del día, los 7 días de la semana, 
                 para brindar soporte técnico inmediato en caso de emergencias. Contamos con técnicos certificados en las 
@@ -72,21 +72,31 @@ const ContenidoExtenso = () => {
               Medellín, Bogotá, Barranquilla, Bucaramanga, Cali, Pereira y Fusagasugá. Esta amplia cobertura nos permite 
               ofrecer servicios de instalación, mantenimiento y reparación con tiempos de respuesta óptimos.
             </p>
+            <p className="text-slate-600 mb-4">
+              Cada una de nuestras sedes cuenta con técnicos certificados y equipos especializados para brindar un servicio 
+              de calidad superior. Nuestro sistema de gestión centralizada nos permite coordinar servicios entre ciudades, 
+              garantizando que nuestros clientes reciban la misma calidad de atención sin importar su ubicación geográfica.
+            </p>
+            <p className="text-slate-600 mb-4">
+              Trabajamos con las principales marcas del mercado internacional, incluyendo Carrier, Trane, York, Daikin, 
+              Mitsubishi Electric, LG, Samsung, Whirlpool, Mabe, Haceb y muchas más. Esta diversidad de marcas nos permite 
+              ofrecer soluciones personalizadas para cada necesidad específica de nuestros clientes.
+            </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <h5 className="font-bold text-slate-800">Medellín</h5>
+                <div className="font-bold text-slate-800">Medellín</div>
                 <p className="text-sm text-slate-600">604 204 0554</p>
               </div>
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <h5 className="font-bold text-slate-800">Bogotá</h5>
+                <div className="font-bold text-slate-800">Bogotá</div>
                 <p className="text-sm text-slate-600">316 713 7081</p>
               </div>
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <h5 className="font-bold text-slate-800">Barranquilla</h5>
+                <div className="font-bold text-slate-800">Barranquilla</div>
                 <p className="text-sm text-slate-600">605 319 8733</p>
               </div>
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <h5 className="font-bold text-slate-800">Bucaramanga</h5>
+                <div className="font-bold text-slate-800">Bucaramanga</div>
                 <p className="text-sm text-slate-600">607 691 6055</p>
               </div>
             </div>
@@ -106,10 +116,20 @@ const ContenidoExtenso = () => {
               incluyendo neveras, lavadoras, lavavajillas, estufas, calentadores y televisores, todos con servicio técnico 
               especializado y repuestos originales.
             </p>
-            <p className="text-slate-600">
+            <p className="text-slate-600 mb-4">
               Nuestro compromiso es brindar soluciones integrales que optimicen el rendimiento energético, reduzcan costos 
               operativos y garanticen la máxima eficiencia en todos los sistemas de climatización y refrigeración que 
               instalamos y mantenemos.
+            </p>
+            <p className="text-slate-600 mb-4">
+              Contamos con un centro de distribución de repuestos que nos permite tener disponibilidad inmediata de piezas 
+              originales para la mayoría de marcas que representamos. Esto nos permite reducir significativamente los tiempos 
+              de reparación y garantizar que nuestros clientes no experimenten interrupciones prolongadas en sus operaciones.
+            </p>
+            <p className="text-slate-600">
+              Nuestro equipo de ingenieros y técnicos especializados está en constante capacitación para mantenerse actualizado 
+              con las últimas tecnologías y tendencias del mercado. Esto nos permite ofrecer asesoría técnica especializada y 
+              recomendaciones personalizadas que optimicen el rendimiento y la eficiencia energética de los equipos de nuestros clientes.
             </p>
           </div>
         </div>
