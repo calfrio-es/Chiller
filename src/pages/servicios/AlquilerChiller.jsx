@@ -16,7 +16,7 @@ const AlquilerChiller = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-              Nuestro servicio de alquiler de chillers industriales está diseñado para 
+              Nuestro Servicio de alquiler de chillers industriales está diseñado para 
               proporcionar soluciones temporales de refrigeración. Contamos con 
               equipos de alta calidad y diferentes capacidades para satisfacer sus necesidades.
             </p>
