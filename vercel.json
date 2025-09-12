@@ -1,13 +1,13 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/.*",
       "destination": "/index.html"
     }
   ],
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/.*",
       "headers": [
         {
           "key": "X-Content-Type-Options",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "source": "/static/(.*)",
+      "source": "/static/.*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "source": "/(.*\\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot))",
+      "source": "/.*\\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$",
       "headers": [
         {
           "key": "Cache-Control",
