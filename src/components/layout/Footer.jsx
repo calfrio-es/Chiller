@@ -45,22 +45,22 @@ const Footer = () => {
             <ul className="space-y-1">
               <li>
                 <Link to="/servicio-tecnico-chiller" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm no-underline">
-                  Servicio Técnico Chiller
+                  Servicio Técnico Especializado
                 </Link>
               </li>
               <li>
                 <Link to="/mantenimiento-chiller" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm no-underline">
-                  Mantenimiento Chiller
+                  Mantenimiento Preventivo
                 </Link>
               </li>
               <li>
                 <Link to="/reparacion-chiller" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm no-underline">
-                  Reparación Chiller
+                  Reparación Correctiva
                 </Link>
               </li>
               <li>
                 <Link to="/instalacion-chiller" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm no-underline">
-                  Instalación Chiller
+                  Instalación Profesional
                 </Link>
               </li>
               <li>
@@ -101,7 +101,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/diseno-cuartos" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm no-underline">
-                  Diseño
+                  Diseño Cuartos Fríos
                 </Link>
               </li>
             </ul>

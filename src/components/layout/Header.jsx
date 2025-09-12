@@ -187,7 +187,7 @@ const Header = () => {
                     <div className="p-4 grid grid-cols-1 gap-1 text-xs">
                       <Link to="/congelacion" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Congelación</Link>
                       <Link to="/conservacion" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Conservación</Link>
-                      <Link to="/diseno-cuartos" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Diseño</Link>
+                      <Link to="/diseno-cuartos" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Diseño Cuartos Fríos</Link>
                     </div>
                   </div>
                 )}
@@ -217,7 +217,7 @@ const Header = () => {
                       <Link to="/mini-split" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Mini Split</Link>
                       <Link to="/piso-techo" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Piso Techo</Link>
                       <Link to="/multi-split" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Multi Split</Link>
-                      <Link to="/diseno-calculo" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Diseño y Calculo</Link>
+                      <Link to="/diseno-calculo" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Diseño y Cálculo Aire</Link>
                     </div>
                   </div>
                 )}
@@ -280,7 +280,7 @@ const Header = () => {
                       <Link to="/mantenimiento-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Mantenimiento Preventivo</Link>
                       <Link to="/reparacion-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Reparación Correctiva</Link>
                       <Link to="/instalacion-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Instalación Profesional</Link>
-                      <Link to="/diseno-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Diseño Personalizado</Link>
+                      <Link to="/diseno-chiller" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Diseño Chiller</Link>
                     </div>
                   </div>
                 )}
@@ -403,7 +403,7 @@ const Header = () => {
                        <div className="mt-3 ml-4 space-y-2">
                          <Link to="/congelacion" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Congelación</Link>
                          <Link to="/conservacion" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Conservación</Link>
-                         <Link to="/diseno-cuartos" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Diseño</Link>
+                         <Link to="/diseno-cuartos" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Diseño Cuartos Fríos</Link>
                        </div>
                      )}
                    </div>
@@ -429,7 +429,7 @@ const Header = () => {
                          <Link to="/mini-split" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Mini Split</Link>
                          <Link to="/piso-techo" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Piso Techo</Link>
                          <Link to="/multi-split" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Multi Split</Link>
-                         <Link to="/diseno-calculo" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Diseño y Calculo</Link>
+                         <Link to="/diseno-calculo" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Diseño y Cálculo Aire</Link>
                        </div>
                      )}
                    </div>
@@ -484,7 +484,7 @@ const Header = () => {
                          <Link to="/mantenimiento-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Mantenimiento Preventivo</Link>
                          <Link to="/reparacion-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Reparación Correctiva</Link>
                          <Link to="/instalacion-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Instalación Profesional</Link>
-                         <Link to="/diseno-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Diseño Personalizado</Link>
+                         <Link to="/diseno-chiller" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Diseño Chiller</Link>
                        </div>
                      )}
                    </div>
