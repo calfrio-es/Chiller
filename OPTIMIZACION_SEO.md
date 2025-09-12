@@ -42,6 +42,8 @@
 - ✅ **CORREGIDO**: Meta descripción acortada (era demasiado larga)
 - ✅ **CORREGIDO**: Enlace canónico actualizado (apuntaba a dominio incorrecto)
 - ✅ **CORREGIDO**: Proporción de encabezados H optimizada (demasiados encabezados)
+- ✅ **CORREGIDO**: Título de página acortado (era demasiado largo - 709 píxeles)
+- ✅ **CORREGIDO**: Meta descripción final optimizada (eliminadas palabras redundantes)
 
 ## 📁 Archivos Modificados
 
