@@ -152,6 +152,8 @@ const Header = () => {
                       <Link to="/producto/chiller-100-toneladas" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Chiller 100 Toneladas</Link>
                       <Link to="/producto/chiller-7-5-toneladas" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Chiller 7.5 toneladas</Link>
                       <Link to="/producto/chiller-5-toneladas" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Chiller 5 tr</Link>
+                      <Link to="/producto/chiller-5-tonelada" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Chiller 5 Toneladas</Link>
+                      <Link to="/producto/chiller-60000-btu" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Chiller 60000 BTU</Link>
                       <Link to="/producto/chiller-3-toneladas" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Chiller 3 tr</Link>
                       <Link to="/producto/chiller-12000-btu" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Chiller 12000 BTU</Link>
                       <Link to="/producto/chiller-10-tr" className="text-gray-600 hover:text-cyan-400 transition-colors duration-300 no-underline py-1">• Chiller 10 TR</Link>
@@ -372,6 +374,8 @@ const Header = () => {
                          <Link to="/producto/chiller-100-toneladas" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Chiller 100 Toneladas</Link>
                          <Link to="/producto/chiller-7-5-toneladas" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Chiller 7.5 toneladas</Link>
                          <Link to="/producto/chiller-5-toneladas" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Chiller 5 tr</Link>
+                         <Link to="/producto/chiller-5-tonelada" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Chiller 5 Toneladas</Link>
+                         <Link to="/producto/chiller-60000-btu" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Chiller 60000 BTU</Link>
                          <Link to="/producto/chiller-3-toneladas" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Chiller 3 tr</Link>
                          <Link to="/producto/chiller-12000-btu" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Chiller 12000 BTU</Link>
                          <Link to="/producto/chiller-10-tr" onClick={closeMobileMenu} className="block text-sm text-gray-600 hover:text-cyan-400 transition-colors duration-300">• Chiller 10 TR</Link>

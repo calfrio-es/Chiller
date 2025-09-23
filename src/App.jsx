@@ -28,6 +28,8 @@ import DisenoChiller from './pages/servicios/DiseñoChiller'
 import Chiller100Toneladas from './pages/chiller/Chiller100Toneladas'
 import Chiller75toneladas from './pages/chiller/Chiller7-5toneladas'
 import Chiller5t from './pages/chiller/Chiller5t'
+import Chiller60000btu from './pages/chiller/Chiller60000btu'
+import Chiller5toneladas from './pages/chiller/Chiller5toneladas'
 import Chiller3tr from './pages/chiller/Chiller3tr'
 import Chiller1200Btu from './pages/chiller/Chiller1200Btu'
 import Chiller10tr from './pages/chiller/Chiller10tr'
@@ -67,7 +69,9 @@ function App() {
             <Route path="/producto/:id" element={<ProductoEspecifico />} />
             <Route path="/chiller-100-toneladas" element={<Chiller100Toneladas />} />
             <Route path="/chiller-7-5-toneladas" element={<Chiller75toneladas />} />
-            <Route path="/chiller-5-toneladas" element={<Chiller5t />} />
+            <Route path="/chiller-5-tr" element={<Chiller5t />} />
+            <Route path="/chiller-60000-btu" element={<Chiller60000btu />} />
+            <Route path="/chiller-5-tonelada" element={<Chiller5toneladas />} />
             <Route path="/chiller-3-toneladas" element={<Chiller3tr />} />
             <Route path="/chiller-1200-btu" element={<Chiller1200Btu />} />
             <Route path="/chiller-10-tr" element={<Chiller10tr />} />

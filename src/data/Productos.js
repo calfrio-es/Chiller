@@ -9,6 +9,8 @@ import chiller9000btuImg from '../assets/img/layout/chiller9000btu.jpeg';
 import chiller20trImg from '../assets/img/layout/chiller20tr.jpeg';
 import chiller25trImg from '../assets/img/layout/chiller25tr.jpeg';
 import chillercw3000Img from '../assets/img/layout/chillercw3000.webp';
+import chiller5toneladasPageImg from '../assets/img/chiller5toneladas.jpg';
+import chiller60000btuPageImg from '../assets/img/chiller60000btu.jpg';
 
 export const productosChiller = [
   {
@@ -190,6 +192,42 @@ export const productosChiller = [
     descripcion: 'Chiller cw 3000 en venta',
     categoria: 'chiller',
     capacidad: 'CW 3000',
+    destacado: false
+  },
+  {
+    id: 'chiller-5-tonelada',
+    nombre: 'Chiller Alpunto – 5 Toneladas',
+    modelo: 'CCAI-005U3E',
+    marca: 'Alpunto',
+    imagen: chiller5toneladasPageImg,
+    ruta: '/chiller-5-tonelada',
+    especificaciones: [
+      'Capacidad: 5 TR (60.000 BTU/hr)',
+      'Refrigerante: R-507C',
+      'Flujo de agua: 60LPM',
+      'Sistema de refrigeración de un (1) circuitos independientes'
+    ],
+    descripcion: 'Chiller Alpunto 5 Toneladas',
+    categoria: 'chiller',
+    capacidad: '5 TR',
+    destacado: false
+  },
+  {
+    id: 'chiller-60000-btu',
+    nombre: 'Chiller 60000 BTU',
+    modelo: 'CCAI-005U3E',
+    marca: 'Alpunto',
+    imagen: chiller60000btuPageImg,
+    ruta: '/chiller-60000-btu',
+    especificaciones: [
+      'Capacidad: 5 TR (60.000 BTU/hr)',
+      'Refrigerante: R-410A',
+      'Flujo de agua: 60LPM',
+      'Sistema de refrigeración de un (1) circuitos independientes'
+    ],
+    descripcion: 'Chiller 60000 BTU en venta',
+    categoria: 'chiller',
+    capacidad: '5 TR',
     destacado: false
   }
 ];
