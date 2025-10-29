@@ -110,7 +110,6 @@ const ReparacionDeAireDeVentana = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

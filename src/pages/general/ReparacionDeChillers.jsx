@@ -107,7 +107,6 @@ const ReparacionDeChillers = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

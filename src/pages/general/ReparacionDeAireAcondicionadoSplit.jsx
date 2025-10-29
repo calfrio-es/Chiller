@@ -111,7 +111,6 @@ const ReparacionDeAireAcondicionadoSplit = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

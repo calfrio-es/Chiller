@@ -109,7 +109,6 @@ const ReparacionDeAiresAcondicionadosDeCasa = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

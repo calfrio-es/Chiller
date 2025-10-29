@@ -110,7 +110,6 @@ const ReparacionDeAireCentral = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

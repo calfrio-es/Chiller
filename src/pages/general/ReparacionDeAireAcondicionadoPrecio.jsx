@@ -111,7 +111,6 @@ const ReparacionDeAireAcondicionadoPrecio = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

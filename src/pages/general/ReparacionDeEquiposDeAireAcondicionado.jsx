@@ -130,6 +130,7 @@ const ReparacionDeEquiposDeAireAcondicionado = () => {
         </div>
       </div>
      </div>
+   </div>
   );
 };
 

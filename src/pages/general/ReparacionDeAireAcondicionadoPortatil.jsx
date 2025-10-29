@@ -111,7 +111,6 @@ const ReparacionDeAireAcondicionadoPortatil = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

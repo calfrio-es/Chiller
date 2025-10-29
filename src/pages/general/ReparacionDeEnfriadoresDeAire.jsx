@@ -106,7 +106,6 @@ const ReparacionDeEnfriadoresDeAire = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

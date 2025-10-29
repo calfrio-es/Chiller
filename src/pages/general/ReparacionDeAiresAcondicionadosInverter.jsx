@@ -109,7 +109,6 @@ const ReparacionDeAiresAcondicionadosInverter = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 
