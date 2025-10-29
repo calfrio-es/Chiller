@@ -210,5 +210,5 @@ const ArreglarAireAcondicionado = () => {
   );
 };
 
-export default AiresAcondicionadosReparacionYMantenimiento;
+export default ArreglarAireAcondicionado;
 
