@@ -210,7 +210,7 @@ const ChillerMantenimiento = () => {
   );
 };
 
-export default ChillerEnfriadoPorAire;
+export default ChillerMantenimiento;
 
 
 
