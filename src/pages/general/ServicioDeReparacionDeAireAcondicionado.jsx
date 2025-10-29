@@ -150,7 +150,6 @@ const ServicioDeReparacionDeAireAcondicionado = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 

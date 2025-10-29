@@ -126,7 +126,6 @@ const ServicioDeMantenimientoAChillers = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 
