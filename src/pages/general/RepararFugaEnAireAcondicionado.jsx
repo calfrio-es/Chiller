@@ -93,7 +93,6 @@ const RepararFugaEnAireAcondicionado = () => {
         </div>
       </div>
      </div>
-   </div>
   );
 };
 
