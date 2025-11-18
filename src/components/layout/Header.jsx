@@ -87,7 +87,7 @@ const Header = () => {
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Bogotá:</span>
-                  <span>3167137081</span>
+                  <span>3012914925</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Barranquilla:</span>
@@ -99,11 +99,11 @@ const Header = () => {
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Cali:</span>
-                  <span>3167137081</span>
+                  <span>3012914925</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Pereira:</span>
-                  <span>3167137081</span>
+                  <span>3012914925</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Fusagasugá:</span>
