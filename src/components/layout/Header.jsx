@@ -83,7 +83,7 @@ const Header = () => {
                           <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4">
                 <span className="flex items-center">
                   <span className="mr-1">Medellín:</span>
-                  <span>6042040554</span>
+                  <span>3012914925</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Bogotá:</span>
@@ -91,11 +91,11 @@ const Header = () => {
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Barranquilla:</span>
-                  <span>6053198733</span>
+                  <span>3012914925</span>
                 </span> 
                 <span className="flex items-center">
                   <span className="mr-1">Bucaramanga:</span>
-                  <span>6076916055</span>
+                  <span>3012914925</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Cali:</span>
@@ -107,7 +107,7 @@ const Header = () => {
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Fusagasugá:</span>
-                  <span>6014828282</span>
+                  <span>3012914925</span>
                 </span>
               </div>
           </div>

@@ -134,13 +134,13 @@ const Footer = () => {
 
             <h3 className="font-bold text-white mb-3 text-sm mt-6">Oficinas</h3>
             <ul className="space-y-1 text-gray-300 text-sm">
-              <li>Medellín: 6042040554</li>
+              <li>Medellín: 3012914925</li>
               <li>Bogotá: 3012914925</li>
-              <li>Barranquilla: 6053198733</li>
-              <li>Bucaramanga: 6076916055</li>
+              <li>Barranquilla: 3012914925</li>
+              <li>Bucaramanga: 3012914925</li>
               <li>Cali: 3012914925</li>
               <li>Pereira: 3012914925</li>
-              <li>Fusagasugá: 6014828282</li>
+              <li>Fusagasugá: 3012914925</li>
             </ul>
           </div>
         </div>
