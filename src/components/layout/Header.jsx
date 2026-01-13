@@ -83,31 +83,31 @@ const Header = () => {
                           <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4">
                 <span className="flex items-center">
                   <span className="mr-1">Medellín:</span>
-                  <span>3012914925</span>
+                  <span>3045519390</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Bogotá:</span>
-                  <span>3012914925</span>
+                  <span>3045519390</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Barranquilla:</span>
-                  <span>3012914925</span>
+                  <span>3045519390</span>
                 </span> 
                 <span className="flex items-center">
                   <span className="mr-1">Bucaramanga:</span>
-                  <span>3012914925</span>
+                  <span>3045519390</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Cali:</span>
-                  <span>3012914925</span>
+                  <span>3045519390</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Pereira:</span>
-                  <span>3012914925</span>
+                  <span>3045519390</span>
                 </span>
                 <span className="flex items-center">
                   <span className="mr-1">Fusagasugá:</span>
-                  <span>3012914925</span>
+                  <span>3045519390</span>
                 </span>
               </div>
           </div>
